@@ -1,0 +1,106 @@
+.purchase{
+    width: 100%;
+    padding: 100px;
+    .purch-container{
+        padding: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        margin-top: 80px;
+        border-radius: 15px;
+        position: relative;
+        background-image: url(../images/purchasefon.svg);
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+        h1{
+            font-size: 38px;
+            color: white;
+            font-weight: 100;
+        }
+        .purchase-b{
+            display: flex;
+            gap: 40px;
+            h2{
+                font-size: 48px;
+                font-weight: 100;
+                color: #ADC9A6;
+            }
+            .purch-p{
+                padding: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                p{
+                    color: #ADC9A6;
+                }
+            }
+            .prch-btn{
+                padding: 16px 60px;
+                border: none;
+                outline: none;
+                border-radius: 10px;
+                background-color: #ADC9A6;
+                color: white;
+                font-size: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (max-width:1024px){
+    .purchase{
+        padding: 50px;
+        .purch-container{
+            gap: 40px;
+            padding: 40px;
+        }
+    }
+}
+
+@media (max-width:786px){
+    .purchase{
+        padding: 30px;
+        .purch-container{
+            gap: 20px;
+            padding: 20px;
+            h1{
+                font-size: 26px;
+            }
+            .purchase-b{
+                gap: 15px;
+                h2{
+                    font-size: 32px;
+                }
+                .prch-btn{
+                    padding: 10px 25px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:560px){
+    .purchase{
+        .purch-container{
+            h1{
+                font-size: 22px;
+            }
+            .purchase-b{
+                h2{
+                    font-size: 30px;
+                }
+                .purch-p{
+                    p{
+                        font-size: 12px;
+                    }
+                }
+                .prch-btn{
+                    padding: 6px 15px;
+                }
+            }
+        }
+    }
+}

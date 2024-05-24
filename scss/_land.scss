@@ -1,0 +1,75 @@
+.land{
+    width: 100%;
+    padding: 0 100px;
+    .land-info{
+        h1{
+            width: 100%;
+        }
+    }
+    .land-img{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 70px;
+        .land-img__item{
+            padding: 100px;
+            padding-bottom: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            background-color: #F2F8F8;
+            p{
+                font-size: 26px;
+            }
+            img{
+                width:100%;
+            }
+        }
+    }
+}
+
+@media (max-width:1400px){
+    main{
+        padding: 0 100px;
+        .land{
+            padding: 0 50px;
+        }
+    }
+}
+
+@media (max-width:1120px){
+    main,header,footer{
+        padding: 0 50px;
+    }
+    .land{
+        padding: 0 30px;
+    }
+}
+
+@media (max-width:786px){
+    main,footer,header{
+        padding: 0 20px;
+    }
+    .land{
+        padding: 0;
+        .land-info{
+            h2{
+                font-size: 14px;
+            }
+            h1{
+                font-size: 24px;
+                font-weight: 600;
+            }
+        }
+        .land-img{
+            gap: 25px;
+            .land-img__item{
+                padding: 25px 25px 0 25px;
+                gap: 15px;
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

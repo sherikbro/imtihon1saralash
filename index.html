@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./scss/style.css">
+    <title>exam</title>
+</head>
+<body>
+    <div class="top-line">
+        <span><i class="fa-solid fa-star"></i></span>
+        <p>Tell your customers of something important with this banner!</p>
+    </div>
+    <header>
+        <!-- <nav>
+            <ul>
+                <li class="logoo"><a href="./index.html"><img src="./images/logo.svg" alt=""></a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#pages">Pages</a></li>
+                <li><a href="#">Template</a></li>
+            </ul>
+
+            <div class="nav-btn">
+                <button>
+                    Buy Align
+                </button>
+            </div>
+        </nav> -->
+
+        <nav class="navbar">
+            <div class="nav-left">
+                <ul>
+                    <li><a href="#"><img src="./images/logo.svg" alt=""></a></li>
+                    <li class="links1"><a href="#overview">Overview</a></li>
+                    <li class="links1"><a href="#pages">Pages</a></li>
+                    <li class="links1"><a href="#">Template</a></li>
+                    
+                </ul>
+                <div class="nav-links2">
+                    <ul class="nav-2">
+                        <li><a href="#overview">Overview</a></li>
+                        <li><a href="#pages">Pages</a></li>
+                        <li><a href="#">Template</a></li>
+                        
+                    </ul>
+                    <button onclick="save()"><i class="fa-solid fa-angles-up"></i></button>
+                </div>
+            </div>
+    
+            <div class="nav-right">
+                <button class="upp-btn burger">
+                    <i class="fa-solid fa-angles-down"></i>
+                </button>
+                
+                <div class="nav-btn">
+                    <button>
+                        Buy Align
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-info">
+                <h2>ALIGN UI KIT FOR WEBFLOW</h2>
+                <h1>Teams build better <br> products with <br> <span class="alignsp">Align UI <span class="alignimg"><img src="./images/alignui.svg" alt="" ></span></span></h1>
+            </div>
+            <div class="hero-img">
+                <img src="./images/hero.svg" alt="">
+            </div>
+        </section>
+
+        <section class="land hero">
+            <div class="land-info hero-info">
+                <h2>LANDING PAGES</h2>
+                <h1>Discover all the pages <br> that you can use over <br> and over again.</h1>
+            </div>
+            <div class="land-img">
+                <div class="land-img__item">
+                    <p>Landing One</p>
+                    <img src="./images/land1.svg" alt="">
+                </div>
+                <div class="land-img__item">
+                    <p>Landing Two</p>
+                    <img src="./images/land2.svg" alt="">
+                </div>
+                <div class="land-img__item">
+                    <p>Landing Three</p>
+                    <img src="./images/land3.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- /landing pages -->
+        <!-- company section -->
+
+        <section class="company hero land">
+            <div class="company-info land-info hero-info">
+                <h2>COMPANY</h2>
+                <h1>Company Pages.</h1>
+            </div>
+            <div class="company-img land-img">
+                <div class="company-img__item land-img__item">
+                    <p id="abtone">About one</p>
+                    <img src="./images/company1.svg" alt="">
+                </div>
+                <div class="company-img__item land-img__item">
+                    <p>About two</p>
+                    <img src="./images/company2.svg" alt="">
+                </div>
+                <div class="company-img__item land-img__item">
+                    <p>About Three</p>
+                    <img src="./images/company3.svg" alt="">
+                </div>
+                <div class="company-img__item land-img__item">
+                    <p>Contact one</p>
+                    <img src="./images/company4.svg" alt="">
+                </div>
+                <div class="company-img__item land-img__item">
+                    <p>Contact two</p>
+                    <img src="./images/company5.svg" alt="">
+                </div>
+                <div class="company-img__item land-img__item">
+                    <p>Contact three</p>
+                    <img src="./images/company6.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- /company section -->
+        <!-- CMS blog section     -->
+
+        <section class="CMS hero land">
+            <div class="company-info land-info hero-info">
+                <h2>blog</h2>
+                <h1>CMS Pages.</h1>
+            </div>
+            <div class="company-img land-img">
+                <div class="company-img__item land-img__item">
+                    <p>Blog One</p>
+                    <img src="./images/blog1.svg" alt="">
+                </div>
+                <div class="company-img__item land-img__item">
+                    <p>Blog Two</p>
+                    <img src="./images/blog2.svg" alt="">
+                </div>
+                <div class="company-img__item land-img__item">
+                    <p>Blog Article (CMS)</p>
+                    <img src="./images/blog3.svg" alt="">
+                </div>
+                <div class="company-img__item land-img__item">
+                    <p>Customer Stories</p>
+                    <img src="./images/blog4.svg" alt="">
+                </div>
+                <div class="company-img__item land-img__item">
+                    <p>Customer Stories Article (CMS)</p>
+                    <img src="./images/blog5.svg" alt="">
+                </div>
+                <div class="company-img__item land-img__item">
+                    <p>Team Member (CMS)</p>
+                    <img src="./images/blog6.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- / CMS BLOG section -->
+        <!-- Pricing pages -->
+
+        <section class="CMS hero land">
+            <div class="company-info land-info hero-info">
+                <h2>PRICING</h2>
+                <h1>Pricing Pages</h1>
+            </div>
+
+            <div class="company-img land-img">
+                <div class="company-img__item land-img__item">
+                    <p>Pricing One</p>
+                    <img src="./images/pricing1.svg" alt="">
+                </div>
+                <div class="company-img__item land-img__item">
+                    <p>Pricing Two</p>
+                    <img src="./images/pricing2.svg" alt="">
+                </div>
+            
+            </div>
+        </section>
+
+        <!-- /pricing pages -->
+        <!-- other section -->
+
+        <section class="other hero land">
+            <div class="company-info land-info hero-info">
+                <h2>OTHER</h2>
+                <h1>Additional Pages</h1>
+            </div>
+
+            <!-- <div class="other-items land-img">
+
+                <div class="other-item">
+                    <p>About one</p>
+                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="other-item">
+                    <p>About two</p>
+                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="other-item">
+                    <p>About one</p>
+                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="other-item">
+                    <p>About two</p>
+                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="other-item">
+                    <p>About one</p>
+                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="other-item">
+                    <p>About two</p>
+                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="other-item">
+                    <p>About one</p>
+                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="other-item">
+                    <p>About two</p>
+                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+
+                
+            </div> -->
+
+
+            <ul class="other-items land-img">
+                <li class="other-item"><a href="#">UI Cards<span><i class="fa-solid fa-arrow-right"></i></span>
+                </a></li>
+                <li class="other-item"><a href="#">Login<span><i class="fa-solid fa-arrow-right"></i></span>
+                </a></li>
+                <li class="other-item"><a href="#">Register<span><i class="fa-solid fa-arrow-right"></i></span>
+                </a></li>
+                <li class="other-item"><a href="#">Forgot Password<span><i class="fa-solid fa-arrow-right"></i></span>
+                </a></li>
+                <li class="other-item"><a href="#">404 Error<span><i class="fa-solid fa-arrow-right"></i></span>
+                </a></li>
+                <li class="other-item"><a href="#">Style Guide<span><i class="fa-solid fa-arrow-right"></i></span>
+                </a></li>
+                <li class="other-item"><a href="#">Changelog<span><i class="fa-solid fa-arrow-right"></i></span>
+                </a></li>
+                <li class="other-item"><a href="#">Licence<span><i class="fa-solid fa-arrow-right"></i></span>
+                </a></li>
+            </ul>
+        </section>
+
+
+        <section class="purchase">
+            <div class="purch-container">
+                <h1>Align is the stress-free <br> way to build your website.</h1>
+                <div class="purchase-b">
+                    <h2>$79</h2>
+                    <div class="purch-p">
+                        <p>Build a better website</p>
+                        <p>faster today.</p>
+                    </div>
+                    <button class="prch-btn">
+                        Purchase
+                    </button>
+    
+                </div>
+    
+                <!-- <img src="./images/purch1.svg" alt="" class="purch1">
+                <img src="./images/purch2.svg" alt="" class="purch2"> -->
+            </div>
+            
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer1">
+            <div class="footer1-info">
+                <h1>Build a beautiful  product with <span>Align</span></h1>
+                <p>Align contains all the pages and sections needed  to create beautiful digital products with ease.</p>
+            </div>
+            <div class="foot-link">
+                <ul>
+                    <li><p>Overview</p></li>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Home 1</a></li>
+                    <li><a href="#">Home 2</a></li>
+                    <li><a href="#">Home 3</a></li>
+                    <li><a href="#">Pricing 1</a></li>
+                    <li><a href="#">Pricing 2</a></li>
+                </ul>
+                <ul>
+                    <li><p>Pages</p></li>
+                    <li><a href="#abtone">About 1</a></li>
+                    <li><a href="#">About 2</a></li>
+                    <li><a href="#">About 3</a></li>
+                    <li><a href="#">Blog 1</a></li>
+                    <li><a href="#">Blog 2</a></li>
+                    <li><a href="#">Blog post</a></li>
+                    <li><a href="#">Team member</a></li>
+                    <li><a href="#">404</a></li>
+                    <li><a href="#">Password</a></li>
+                </ul>
+                <ul>
+                    <li><p>Pages</p></li>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Home 1</a></li>
+                    <li><a href="#">Home 2</a></li>
+                    <li><a href="#">Home 3</a></li>
+                    <li><a href="#">Pricing 1</a></li>
+                    <li><a href="#">Pricing 2</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="footer2">
+            <div class="footer2-left">
+                <span><img src="./images/footerlogo.svg" alt=""></span>
+                <p>| © Template by <span class="f-col">Flowbase</span>- Powered by <span class="f-col">Webflow</span></p>
+            </div>
+            <div class="footer2-right">
+                <p id="overview">Overview</p>
+                <p id="pages">Pages</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sherikbro/imtihon1saralash.git
+git push -u origin main -->
+
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
